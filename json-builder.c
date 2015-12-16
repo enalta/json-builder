@@ -1,5 +1,6 @@
 #include "json-builder.h"
 
+
 #ifndef USE_STRING_H_
 
 size_t stringLen(char* input){
