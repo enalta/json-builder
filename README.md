@@ -4,14 +4,14 @@ This lib can be used to easily build JSON documents on embedded systems. The foo
 
 ### Build instructions
 
-The lib is provided as an Eclipse project. Just import it into Eclipse, add it as a reference to your project and configure it to use your toolchain. Alternatively just copy the files **json_builder.h** and **json\_builder.c** to your project directory, include the lib on the file where it will be used and add the lib files to the compilation process.
+The lib is provided as an Eclipse project. Just import it into Eclipse, add it as a reference to your project and configure it to use your toolchain. Alternatively just copy the files **json-builder.h** and **json-builder.c** to your project directory, include the lib on the file where it will be used and add the lib files to the compilation process.
 
 ### Usage example
 
 ```c
 #include <stdio.h>
 #include <string.h>
-#include "json_builder.h"
+#include "json-builder.h"
 
 int main(){  
 	char numberBuffer[50];
